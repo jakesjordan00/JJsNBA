@@ -80,10 +80,10 @@ namespace NBA_SQL
                 Session["Guest"] = "Guest";
                 lblUser.Text = Session["Guest"].ToString();
             }
-            SqlConnection sqlConnect = new SqlConnection("Server=localhost;Database=nba1_18;User Id=test;Password=test123;");
-            using (sqlConnect)
-            {
-                System.Web.UI.HtmlControls.HtmlImage[] eastArr = { h1p };
+            //SqlConnection sqlConnect = new SqlConnection("Server=localhost;Database=nba1_18;User Id=test;Password=test123;");
+            //using (sqlConnect)
+            //{
+               // System.Web.UI.HtmlControls.HtmlImage[] eastArr = { h1p };
                 //using (SqlCommand querySearch = new SqlCommand("liveLines"))
                 //{
                 //    querySearch.CommandType = CommandType.StoredProcedure;
@@ -112,7 +112,7 @@ namespace NBA_SQL
                 //    }
                 //    sqlConnect.Close();
                 //}
-            }
+            //}
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

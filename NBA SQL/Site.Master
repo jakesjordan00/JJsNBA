@@ -275,11 +275,11 @@ display: inline-block;
        <asp:LinkButton ID="lblUser"   runat="server" Text="" ForeColor="Black" OnClick="lblUser_Click" CssClass="nav-link"></asp:LinkButton> 
     
 </nav>
-<nav>
+<%--<nav>
     <div class="live-games" style="margin-top:50px;">
         <img id="h1p" src="" runat="server"/>
     </div>
-</nav>
+</nav>--%>
         <div class="container-fluid" >
                 <asp:ContentPlaceHolder ID="MainContent" runat="server"  >
                 </asp:ContentPlaceHolder>
