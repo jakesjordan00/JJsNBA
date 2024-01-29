@@ -1,0 +1,8 @@
+Invoke-RestMethod -Uri https://cdn.nba.com/static/json/liveData/odds/odds_todaysGames.json -OutFile C:/lines.txt
+https://cdn.nba.com/static/json/liveData/odds/odds_todaysGames.json
+
+Invoke-RestMethod -Uri https://stats.nba.com/stats/playoffpicture?LeagueID=00"&"SeasonID=22022 -OutFile C:/playoffPicture.txt
+https://stats.nba.com/stats/playoffpicture?LeagueID=00&SeasonID=22022
+
+Invoke-RestMethod -Uri https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json -OutFile C:/scores.txt
+https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json

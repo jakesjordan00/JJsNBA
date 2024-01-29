@@ -1,0 +1,252 @@
+﻿head{
+    width:max-content
+}
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*This ACTUALLY CHANGES the body for the master template*/
+body {
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color:black;
+    color:white;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+
+/*This controls the navbar as a whole, but not the position of the individual items*/
+.navbar {
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: black;
+}
+
+/*This changes the layout of the BODY of the entire website*/
+.body-content{
+    margin-left: 5px;
+}
+/*To manipulate "JJ's NBA Databse" block*/
+navbar-brand {
+    background-color: Black; /*Changes color of "JJ's NBA Databse" block background*/
+    border-color: Black;
+}
+
+
+/*This is used for the tables for each team and matchup stats*/
+.WideTable {
+    display: table;
+    width: 1650px;
+}
+
+/*Used to display the table for each team's roster*/
+.RosterTable {
+    display: table;
+    width: 1200px;
+}
+
+
+
+
+/*Code to be used for Teams menu*/
+/* The navigation menu */
+
+
+    /* Navigation links */
+    .navbar a {
+        
+        font-size: 16px;
+        color: Black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+
+}
+
+    /* Subnav button */
+    .subnav .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: Black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    /* Add a red background color to navigation links on hover */
+    .navbar a:hover{
+        margin-top: 5px;
+        color: Black;
+        height: 25px;
+    }
+
+
+
+/* Style the Eastern Conference block */
+.subnav-content {
+    display: none;
+    position: absolute;
+    color: Black;
+    z-index: 1;
+}
+
+    /*Style the CONTAINER for the EAST TEAMS*/
+.subnav-content1 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    color: Black
+}
+        /* Style the EASTERN CONFERENCE TEAMS */
+.subnav-content a {
+    float: left,;
+    margin-top: 5px;
+    color: Black;
+    text-decoration: none;
+}
+            /* Changes the color of the text of the EASTERN CONFERENCE TEAMS on HOVER */
+            .subnav-content1 a:hover {
+                color: cadetblue;
+                margin-top: 5px;
+                text-decoration: underline;
+            }
+
+
+.subnav-contentT {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: Black;
+}
+    /*Style the CONTAINER for the WEST TEAMS*/
+    .subnav-content2 {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        height: 150px;
+    }
+        /* Style the WEST CONFERENCE TEAMS */
+.subnav-contentT a {
+    float: left,;
+    margin-top: 5px;
+    color: Black;
+    height: 10px;
+}
+            /* Changes the color of the text of the WEST CONFERENCE TEAMS on HOVER */
+            .subnav-content2 a:hover {
+                color: cadetblue;
+                margin-top: 5px;
+                text-decoration: underline;
+            }
+
+
+
+
+
+
+
+
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content, .subnav:hover .subnav-contentT {
+    display: contents;
+}
+
+
+
+
+
+
+
+
+
+/* When you move the mouse over the Conferences, open the teams*/
+.subnav-content:hover .subnav-content1 {
+    display: table-row;
+}
+
+.subnav-contentT:hover .subnav-content2 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Generated classes found below*/
+
+
+
+
+
+
+
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 50px 50px 0px 0px;
+        margin-left: 10px;
+        margin-right: auto;
+        padding-right: 15px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+.left {
+    margin: 10px 50px 20px 0px
+}
+
+
+/*No idea what this does not gonna lie*/
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+    left: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-right: 15px;
+}
+*/
